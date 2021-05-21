@@ -20,11 +20,13 @@ btn.addEventListener("click", function(){
 
 const countElement = document.getElementById('count');
 
+updateVisitCount();
+
 function updateVisitCount(){
-	fetch(https://api.countapi.xyz/update/gnnort.github.io/mibao/?amount=1)
+	fetch('https://api.countapi.xyz/update/gnnort.github.io/mibao/?amount=1')
 		.then(res => res.json())
 		.then(res => {
-			countEl.innerHTML = res.value;
+			countElement.innerHTML = res.value;
 		});
 
 }
