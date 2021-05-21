@@ -17,3 +17,14 @@ btn.addEventListener("click", function(){
 												counter = 0;
 											}
 										});
+
+const countElement = document.getElementById('count');
+
+function updateVisitCount(){
+	fetch(https://api.countapi.xyz/update/gnnort.github.io/mibao/?amount=1)
+		.then(res => res.json())
+		.then(res => {
+			countEl.innerHTML = res.value;
+		});
+
+}
