@@ -3,7 +3,15 @@ var pics = [
 			"mibao pics/bailey2.jpg",
 			"mibao pics/mibao-glam.jpg",
 			"mibao pics/mibao-play.jpg",
-			"mibao pics/mibao-sus.jpg"
+			"mibao pics/mibao-sus.jpg",
+			"mibao pics/mibao-pose.jpg",
+			"mibao pics/mibao-bed.jpg",
+			"mibao pics/mibao-pensive.jpg",
+			"mibao pics/mibao-beach.jpg",
+			"mibao pics/mibao-carrot.jpg",
+			"mibao pics/mibao-jedi.jpg",
+			"mibao pics/mibao-lol.jpg",
+			"mibao pics/mibao-attentive.jpg"
 			];
 
 var btn = document.querySelector("button");
