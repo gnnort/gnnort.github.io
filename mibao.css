@@ -143,7 +143,7 @@ button:hover {
 
 
 /*media query for mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
 	.navbar_container {
 		display: flex;
 		justify-content: space-between;
@@ -242,7 +242,7 @@ button:hover {
 	}
 }
 
-}
+
 
 .img {
 	text-align: center;
