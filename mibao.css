@@ -10,10 +10,6 @@
 	text-align: center;
 }
 
-#bailey_header {
-	margin-top: -50%;
-}
-
 #count_line {
 	text-align: center;
 	font-size: 2rem;
@@ -140,6 +136,16 @@ button:hover {
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
+
+/*tablet media query*/
+
+/*@media screen and (max-width: 768px) {
+	width: 100%;
+	.main {
+		margin: 0;
+		padding: 0;
+	}
+}*/
 
 
 /*media query for mobile*/
