@@ -4,17 +4,67 @@
 	<meta charset="utf-8">
 	<title>Mibao</title>
 	<link rel="stylesheet" type="text/css" href="mibao.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
-	<section id="container">
-		<h1>Mibao AKA Bailey</h1>
-		<p>Say hello to mibao!</p>
-		<img src="mibao pics/bailey2.jpg">
-		<p><button>Woof!</button></p>
-		<p>Viewed <span id="count"></span> times!</p>
-		<!-- <p id="count"> </p> -->
-	
-	</section>
+	<nav class="navbar">
+		<div class="navbar_container">
+			<a href="/" id="navbar_logo">MIBAO</a>
+			<div class="navbar_toggle" id="mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="navbar_menu">
+				<li class="navbar_item">
+					<a href="/" class="navbar_links">HOME</a>
+				</li>
+				<li class="navbar_item">
+					<a href="/" class="navbar_links">ABOUT</a>
+				</li>
+				<li class="navbar_item">
+					<a href="/" class="navbar_links">SIGN UP</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- hero section -->
+	<div class="main">
+		<div class="main_container">
+			<div class="main_content">
+				<h1 id="bailey_header">This is Bailey.</h1>
+				<p>Say hello!</p>
+				<img src="mibao pics/mibao-pensive.jpg">
+				<p><button id="main_button">VIEW MORE.</button></p>
+			</div>
+		</div>
+	</div>
+	<p id="count_line">This page has been viewed <span id="count"></span> times!</p>
+	<!-- Footer section -->
+	<div class="footer_container">
+		<div class="footer_links">
+			<div class="footer_linkWrapper">
+				<div class="social_media">
+					<div class="social_mediaWrapper">
+						<span class="website_rights">© 2021 gnnort. All rights reserved.</span>
+						<span class="social_icons">
+							<a href="" class="social_iconLink" target="_blank">
+								<i class = "fab fa-facebook"></i>
+							</a>
+							<a href="https://www.linkedin.com/in/tron-ng/" class="social_iconLink" target="_blank">
+								<i class = "fab fa-linkedin"></i>
+							</a>
+							<a href="" class="social_iconLink" target="_blank">
+								<i class = "fab fa-instagram"></i>
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
 	<script type="text/javascript" src="mibao.js"></script>
 </body>
 </html>
